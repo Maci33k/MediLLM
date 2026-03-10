@@ -1,0 +1,268 @@
+[
+    {
+        "id": 0,
+        "extraction": {
+            "patient_demographics": {
+                "age": 23,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "Allergic rhinitis",
+            "medical_history": [
+                "Allergies",
+                "Asthma"
+            ],
+            "physical_findings": [
+                "Weight 130 pounds",
+                "Blood pressure 124/78",
+                "Throat mildly erythematous without exudate",
+                "Nasal mucosa erythematous and swollen",
+                "Clear nasal drainage",
+                "Neck supple without adenopathy",
+                "Lungs clear",
+                "TMs clear"
+            ],
+            "clinical_plan": "Stop Allegra. Try Zyrtec or loratadine. Use Nasonex samples and prescription (two sprays in each nostril for three weeks).",
+            "past_medications": [
+                {
+                    "name": "Claritin",
+                    "dosage": null,
+                    "route": "Oral"
+                },
+                {
+                    "name": "Zyrtec",
+                    "dosage": null,
+                    "route": "Oral"
+                },
+                {
+                    "name": "Over-the-counter sprays",
+                    "dosage": null,
+                    "route": "Nasal"
+                }
+            ],
+            "current_medications": [
+                {
+                    "name": "Ortho Tri-Cyclen",
+                    "dosage": null,
+                    "route": "Oral"
+                },
+                {
+                    "name": "Allegra",
+                    "dosage": null,
+                    "route": "Oral"
+                }
+            ],
+            "prescribed_medications": [
+                {
+                    "name": "Zyrtec",
+                    "dosage": null,
+                    "route": "Oral"
+                },
+                {
+                    "name": "Loratadine",
+                    "dosage": null,
+                    "route": "Oral"
+                },
+                {
+                    "name": "Nasonex",
+                    "dosage": "Two sprays in each nostril",
+                    "route": "Nasal"
+                }
+            ],
+            "patient_summary_target_lang": "Zdiagnozowano u pacjentki alergiczny nieżyt nosa (katar sienny). Zalecono zmianę dotychczasowych leków przeciwhistaminowych, ponieważ przestały być skuteczne, oraz przepisano nowy spray do nosa.",
+            "patient_instructions_target_lang": [
+                "Odstaw lek Allegra.",
+                "Rozpocznij przyjmowanie leku Zyrtec lub tańszego zamiennika (Loratadyna).",
+                "Stosuj spray Nasonex: po dwa psiknięcia do każdego nozdrza przez 3 tygodnie."
+            ]
+        }
+    },
+    {
+        "id": 500,
+        "extraction": {
+            "patient_demographics": {
+                "age": 11,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Left undescended testis plus left inguinal hernia",
+            "medical_history": [
+                "Left undescended testis"
+            ],
+            "physical_findings": [
+                "High left undescended testis",
+                "Type III epididymal attachment with a long looping vas",
+                "Communicating hernia hydrocele"
+            ],
+            "clinical_plan": "Recovery after left inguinal hernia repair and left orchiopexy.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Marcaine",
+                    "dosage": "0.25% and 0.5%",
+                    "route": "Local/Block"
+                },
+                {
+                    "name": "Dermabond",
+                    "dosage": null,
+                    "route": "Topical"
+                },
+                {
+                    "name": "Toradol",
+                    "dosage": null,
+                    "route": "IV"
+                }
+            ],
+            "patient_summary_target_lang": "Zabieg chirurgiczny polegający na naprawie lewej przepukliny pachwinowej oraz sprowadzeniu niezstąpionego lewego jądra do moszny (orchiopeksja).",
+            "patient_instructions_target_lang": [
+                "Odpoczywaj po zabiegu operacyjnym.",
+                "Uważaj na rany pooperacyjne, które zostały zabezpieczone specjalnym klejem tkankowym (Dermabond).",
+                "Stosuj się do zaleceń przeciwbólowych przekazanych przy wypisie."
+            ]
+        }
+    },
+    {
+        "id": 1000,
+        "extraction": {
+            "patient_demographics": {
+                "age": 56,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "Mild-to-moderate diverticulosis",
+            "medical_history": [
+                "Hypertension",
+                "Dyslipidemia",
+                "Gastroesophageal reflux disease",
+                "Cesarean section twice in the past"
+            ],
+            "physical_findings": [
+                "Very tortuous sigmoid colon",
+                "Few diverticula encountered in the sigmoid and descending colon",
+                "No polyps or malignancy identified"
+            ],
+            "clinical_plan": "Patient provided information on diverticulosis including dietary advice. Advised repeat colonoscopy after 10 years.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "Wykonano profilaktyczne badanie kolonoskopowe. Nie wykryto żadnych polipów ani zmian nowotworowych. Stwierdzono jedynie łagodną do umiarkowanej uchyłkowatość jelita grubego.",
+            "patient_instructions_target_lang": [
+                "Stosuj się do przekazanych zaleceń dietetycznych dotyczących uchyłkowatości jelita.",
+                "Zgłoś się na ponowną profilaktyczną kolonoskopię za 10 lat."
+            ]
+        }
+    },
+    {
+        "id": 1500,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": null
+            },
+            "primary_diagnosis_technical": "Left-sided hydronephrosis, ureteral stricture",
+            "medical_history": [
+                "Ureteral stricture",
+                "Left lower quadrant ostomy"
+            ],
+            "physical_findings": [
+                "Properly positioned double-J right ureteral stent",
+                "Pelvic calcifications, likely vascular",
+                "Right kidney measuring 9.0 x 2.9 x 4.3 cm with normal cortical echogenicity",
+                "Moderate-to-severe left-sided hydronephrosis",
+                "Decompressed bladder",
+                "No visible renal or ureteral calculi",
+                "No perinephric fluid collection"
+            ],
+            "clinical_plan": "Review findings with the referring physician for further management of left-sided hydronephrosis.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "Wykonano badanie rentgenowskie jamy brzusznej oraz USG nerek. Prawa nerka wygląda prawidłowo, a założony w niej cewnik (stent) znajduje się we właściwej pozycji. W lewej nerce stwierdzono umiarkowane lub nasilone wodonercze. Nie uwidoczniono kamieni nerkowych.",
+            "patient_instructions_target_lang": [
+                "Skonsultuj otrzymane wyniki badań obrazowych z lekarzem prowadzącym (lub urologiem), aby ustalić dalsze postępowanie w związku z wodonerczem lewej nerki."
+            ]
+        }
+    },
+    {
+        "id": 2000,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": null
+            },
+            "primary_diagnosis_technical": "Unspecified pain (Indication for caudal epidural steroid injection)",
+            "medical_history": [],
+            "physical_findings": [],
+            "clinical_plan": "Caudal epidural steroid injection with contrast under fluoroscopy guidance.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "IV sedation",
+                    "dosage": null,
+                    "route": "IV"
+                },
+                {
+                    "name": "Steroid",
+                    "dosage": null,
+                    "route": "Epidural"
+                },
+                {
+                    "name": "Contrast",
+                    "dosage": null,
+                    "route": "Epidural"
+                }
+            ],
+            "patient_summary_target_lang": "Rozpoczęto procedurę zewnątrzoponowego wstrzyknięcia sterydu (tzw. blokada centralna) pod kontrolą urządzenia RTG (fluoroskopii). Pacjentowi założono wkłucie dożylne i podano leki uspokajające (sedację).",
+            "patient_instructions_target_lang": [
+                "Zastosuj się do zaleceń pooperacyjnych i anestezjologicznych wydanych przez personel medyczny po wybudzeniu z sedacji."
+            ]
+        }
+    },
+    {
+        "id": 2500,
+        "extraction": {
+            "patient_demographics": {
+                "age": 36,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "40 weeks 6 days intrauterine pregnancy, non-reassuring fetal heart tones, third-degree midline laceration",
+            "medical_history": [
+                "Positive serology for HSV (no active lesions)",
+                "Gravida 1 (G1)"
+            ],
+            "physical_findings": [
+                "Live male infant with Apgars of 9 and 9",
+                "Placenta delivered spontaneously intact with a three-vessel cord",
+                "Third-degree midline laceration",
+                "Right vaginal side wall laceration",
+                "Right occiput anterior presentation",
+                "Fetal heart tones dropped to 80s during pushing"
+            ],
+            "clinical_plan": "Patient and baby recovering in LDR in stable condition. Baby will transfer to newborn nursery when ready. Routine postpartum and laceration care.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Pitocin",
+                    "dosage": null,
+                    "route": "IV"
+                },
+                {
+                    "name": "1% lidocaine",
+                    "dosage": null,
+                    "route": "Local"
+                },
+                {
+                    "name": "IV fluids",
+                    "dosage": null,
+                    "route": "IV"
+                }
+            ],
+            "patient_summary_target_lang": "Przeprowadzono poród siłami natury ze wspomaganiem próżnociągiem (vacuum) z powodu spadku tętna płodu. Urodzono zdrowego chłopca. Po porodzie zszyto pęknięcie krocza trzeciego stopnia oraz pęknięcie prawej ściany pochwy w znieczuleniu miejscowym.",
+            "patient_instructions_target_lang": [
+                "Odpoczywaj i pozostawaj pod opieką personelu na sali poporodowej.",
+                "Utrzymuj szczególną higienę okolic intymnych z uwagi na założone szwy na kroczu i ścianie pochwy.",
+                "Zgłoś pielęgniarce lub lekarzowi każdy nagły, silny ból lub wzmożone krwawienie."
+            ]
+        }
+    }
+]
