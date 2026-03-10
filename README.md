@@ -68,3 +68,14 @@ A local address (e.g., `http://localhost:8501`) will appear in the terminal, whi
 * `app/utils/` - Helper files:
   * `ai_engine.py` - Logic for communication with Llama and Gemini models
   * `translations.py` - File with multilingual constants to support PL/EN versions
+
+  ## 📸 Screenshots
+
+**Main Application** ![Main App](assets/app.png)
+
+**Doctor Panel** *Facilitates the loading and processing of medical notes.* ![Doctor Panel](assets/doctor-panel.png)
+
+**Patient Portal** *Generates an easy-to-understand summary of the visit for the patient.* ![Patient Portal](assets/patient-portal.png)
+
+**Laboratory Module (Model Comparison)** *Analytical module for comparing different LLMs.* ![Laboratory Module 1](assets/lab1.png)  
+![Laboratory Module 2](assets/lab2.png)
