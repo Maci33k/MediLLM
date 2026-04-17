@@ -68,11 +68,11 @@
                     "route": "Nasal"
                 }
             ],
-            "patient_summary_target_lang": "Zdiagnozowano u pacjentki alergiczny nieżyt nosa (katar sienny). Zalecono zmianę dotychczasowych leków przeciwhistaminowych, ponieważ przestały być skuteczne, oraz przepisano nowy spray do nosa.",
+            "patient_summary_target_lang": "The patient was diagnosed with allergic rhinitis (hay fever). It was recommended to change the current antihistamine medications as they are no longer effective, and a new nasal spray was prescribed.",
             "patient_instructions_target_lang": [
-                "Odstaw lek Allegra.",
-                "Rozpocznij przyjmowanie leku Zyrtec lub tańszego zamiennika (Loratadyna).",
-                "Stosuj spray Nasonex: po dwa psiknięcia do każdego nozdrza przez 3 tygodnie."
+                "Discontinue Allegra.",
+                "Start taking Zyrtec or a cheaper alternative (Loratadine).",
+                "Use Nasonex nasal spray: two sprays into each nostril for 3 weeks."
             ]
         }
     },
@@ -112,11 +112,11 @@
                     "route": "IV"
                 }
             ],
-            "patient_summary_target_lang": "Zabieg chirurgiczny polegający na naprawie lewej przepukliny pachwinowej oraz sprowadzeniu niezstąpionego lewego jądra do moszny (orchiopeksja).",
+            "patient_summary_target_lang": "Surgical procedure involving the repair of a left inguinal hernia and bringing an undescended left testicle down into the scrotum (orchiopexy).",
             "patient_instructions_target_lang": [
-                "Odpoczywaj po zabiegu operacyjnym.",
-                "Uważaj na rany pooperacyjne, które zostały zabezpieczone specjalnym klejem tkankowym (Dermabond).",
-                "Stosuj się do zaleceń przeciwbólowych przekazanych przy wypisie."
+                "Rest after the surgical procedure.",
+                "Take care of the surgical wounds, which have been secured with a special tissue adhesive (Dermabond).",
+                "Follow the pain management instructions provided at discharge."
             ]
         }
     },
@@ -143,10 +143,10 @@
             "past_medications": [],
             "current_medications": [],
             "prescribed_medications": [],
-            "patient_summary_target_lang": "Wykonano profilaktyczne badanie kolonoskopowe. Nie wykryto żadnych polipów ani zmian nowotworowych. Stwierdzono jedynie łagodną do umiarkowanej uchyłkowatość jelita grubego.",
+            "patient_summary_target_lang": "A screening colonoscopy was performed. No polyps or neoplastic changes were detected. Only mild to moderate diverticulosis of the colon was noted.",
             "patient_instructions_target_lang": [
-                "Stosuj się do przekazanych zaleceń dietetycznych dotyczących uchyłkowatości jelita.",
-                "Zgłoś się na ponowną profilaktyczną kolonoskopię za 10 lat."
+                "Follow the provided dietary recommendations regarding diverticulosis.",
+                "Return for another screening colonoscopy in 10 years."
             ]
         }
     },
@@ -175,9 +175,9 @@
             "past_medications": [],
             "current_medications": [],
             "prescribed_medications": [],
-            "patient_summary_target_lang": "Wykonano badanie rentgenowskie jamy brzusznej oraz USG nerek. Prawa nerka wygląda prawidłowo, a założony w niej cewnik (stent) znajduje się we właściwej pozycji. W lewej nerce stwierdzono umiarkowane lub nasilone wodonercze. Nie uwidoczniono kamieni nerkowych.",
+            "patient_summary_target_lang": "An abdominal X-ray and renal ultrasound were performed. The right kidney appears normal, and the indwelling stent is in the correct position. Moderate to severe hydronephrosis was noted in the left kidney. No kidney stones were visualized.",
             "patient_instructions_target_lang": [
-                "Skonsultuj otrzymane wyniki badań obrazowych z lekarzem prowadzącym (lub urologiem), aby ustalić dalsze postępowanie w związku z wodonerczem lewej nerki."
+                "Consult these imaging results with your primary care physician (or urologist) to determine further management for the left hydronephrosis."
             ]
         }
     },
@@ -211,9 +211,9 @@
                     "route": "Epidural"
                 }
             ],
-            "patient_summary_target_lang": "Rozpoczęto procedurę zewnątrzoponowego wstrzyknięcia sterydu (tzw. blokada centralna) pod kontrolą urządzenia RTG (fluoroskopii). Pacjentowi założono wkłucie dożylne i podano leki uspokajające (sedację).",
+            "patient_summary_target_lang": "An epidural steroid injection procedure (central block) was initiated under X-ray guidance (fluoroscopy). An intravenous line was established, and the patient was given sedative medications (sedation).",
             "patient_instructions_target_lang": [
-                "Zastosuj się do zaleceń pooperacyjnych i anestezjologicznych wydanych przez personel medyczny po wybudzeniu z sedacji."
+                "Follow the postoperative and anesthesia instructions provided by the medical staff upon waking from sedation."
             ]
         }
     },
@@ -257,11 +257,784 @@
                     "route": "IV"
                 }
             ],
-            "patient_summary_target_lang": "Przeprowadzono poród siłami natury ze wspomaganiem próżnociągiem (vacuum) z powodu spadku tętna płodu. Urodzono zdrowego chłopca. Po porodzie zszyto pęknięcie krocza trzeciego stopnia oraz pęknięcie prawej ściany pochwy w znieczuleniu miejscowym.",
+            "patient_summary_target_lang": "A vacuum-assisted vaginal delivery was performed due to a drop in fetal heart rate. A healthy baby boy was delivered. Following the delivery, a third-degree perineal tear and a right vaginal wall laceration were repaired under local anesthesia.",
             "patient_instructions_target_lang": [
-                "Odpoczywaj i pozostawaj pod opieką personelu na sali poporodowej.",
-                "Utrzymuj szczególną higienę okolic intymnych z uwagi na założone szwy na kroczu i ścianie pochwy.",
-                "Zgłoś pielęgniarce lub lekarzowi każdy nagły, silny ból lub wzmożone krwawienie."
+                "Rest and remain under the care of the staff in the postpartum recovery room.",
+                "Maintain meticulous hygiene of your intimate areas due to the stitches placed on the perineum and vaginal wall.",
+                "Report any sudden, severe pain or heavy bleeding to a nurse or doctor."
+            ]
+        }
+    },
+    {
+        "id": 3000,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Right renal mass",
+            "medical_history": [],
+            "physical_findings": [
+                "Early branching of the right renal artery",
+                "Minimal degree of oozing from the adrenal gland",
+                "Estimated blood loss was negligible"
+            ],
+            "clinical_plan": "Recovery after right radical nephrectomy and assisted laparoscopic approach.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Surgicel",
+                    "dosage": null,
+                    "route": "Topical"
+                }
+            ],
+            "patient_summary_target_lang": "A radical right nephrectomy (kidney removal) was performed due to a tumor. The procedure was completed under general anesthesia using a hand-assisted laparoscopic approach. The surgery was successful without complications.",
+            "patient_instructions_target_lang": [
+                "Rest and follow the routine postoperative instructions provided by the ward staff.",
+                "Report any increasing pain at the surgical site to the nurses."
+            ]
+        }
+    },
+    {
+        "id": 3500,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": null
+            },
+            "primary_diagnosis_technical": "Biliary colic",
+            "medical_history": [],
+            "physical_findings": [
+                "No injury from entry during laparoscopic examination"
+            ],
+            "clinical_plan": "Laparoscopic cholecystectomy.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Marcaine",
+                    "dosage": null,
+                    "route": "Subxiphoid injection"
+                }
+            ],
+            "patient_summary_target_lang": "The patient underwent a laparoscopic cholecystectomy (gallbladder removal) due to biliary colic. No internal injuries were noted during the insertion of surgical instruments.",
+            "patient_instructions_target_lang": [
+                "Rest after your laparoscopic procedure.",
+                "Follow the instructions provided by the medical staff upon waking up."
+            ]
+        }
+    },
+    {
+        "id": 4000,
+        "extraction": {
+            "patient_demographics": {
+                "age": 62,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "Type I diabetes, recent Diabetic Ketoacidosis (DKA)",
+            "medical_history": [
+                "Type I diabetes"
+            ],
+            "physical_findings": [
+                "Recent blood sugar spike up to >600 mg/dl",
+                "Current cold symptoms"
+            ],
+            "clinical_plan": "Dietary consultation for carbohydrate counting. Recommended 1 unit of insulin per 10g carbohydrates and a correction dose of 1 unit per 30 mg/dl drop. Recommended consistent carb intake: 45g breakfast, 45g lunch, 60g dinner. Provided educational materials.",
+            "past_medications": [],
+            "current_medications": [
+                {
+                    "name": "Humalog / Insulin",
+                    "dosage": "Basal: 30.5 units/24 hrs. Boluses: 5 units breakfast, 6 units lunch, 11 units supper. Ratio: 1 unit per 10g carbs. Correction: 1 unit per 30 mg/dl.",
+                    "route": "Pump / Injectable"
+                }
+            ],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "Odbyto konsultację dietetyczną dla pacjentki z cukrzycą typu 1, która była niedawno hospitalizowana z powodu kwasicy ketonowej. Omówiono zasady planowania posiłków, przeliczania węglowodanów na jednostki insuliny oraz stosowania dawek korekcyjnych.",
+            "patient_summary_target_lang": "A dietary consultation was held for a patient with type 1 diabetes recently hospitalized for diabetic ketoacidosis (DKA). Principles of meal planning, carbohydrate-to-insulin ratios, and correction doses were discussed.",
+            "patient_instructions_target_lang": [
+                "Administer 1 unit of insulin for every 10 grams of carbohydrates consumed.",
+                "Use a correction dose: 1 unit of insulin lowers blood sugar by approximately 30 mg/dL.",
+                "Maintain a consistent carbohydrate intake at meals: 45 g for breakfast, 45 g for lunch, and 60 g for dinner.",
+                "In case of any issues with the proper functioning of the insulin pump, call the provided manufacturer's helpline."
+            ]
+        }
+    },
+    {
+        "id": 4500,
+        "extraction": {
+            "patient_demographics": {
+                "age": 75,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Congestive heart failure exacerbation, pneumonia",
+            "medical_history": [
+                "Hypertension",
+                "Hyperlipidemia (cholesterol elevated)",
+                "Coronary artery disease",
+                "Cardiomyopathy",
+                "COPD",
+                "Arrhythmia",
+                "Bronchitis",
+                "Anxiety",
+                "Hearing impaired",
+                "Blurry vision",
+                "Arthritis"
+            ],
+            "physical_findings": [
+                "Elevated BNP (10,000)",
+                "Decreased air entry in the basilar areas bilaterally",
+                "Scattered rales (right greater than left)",
+                "Displaced PMI",
+                "Systolic murmur",
+                "Trace ankle edema",
+                "Feebly palpable pulses",
+                "Clubbing plus",
+                "EKG: sinus bradycardia, intraventricular conduction defect, nonspecific ST-T changes",
+                "H&H 10/32",
+                "INR 1.8",
+                "Ejection fraction of 39% with inferior reversible defect (recent scan)"
+            ],
+            "clinical_plan": "Patient admitted to the hospital for further evaluation of congestive heart failure and incidental pneumonia.",
+            "past_medications": [],
+            "current_medications": [
+                {
+                    "name": "Aspirin",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Coumadin",
+                    "dosage": "adjusted dose",
+                    "route": null
+                },
+                {
+                    "name": "Digoxin",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Isosorbide mononitrate",
+                    "dosage": "120 mg daily",
+                    "route": null
+                },
+                {
+                    "name": "Lasix",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Potassium supplementation",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Gemfibrozil",
+                    "dosage": "600 mg b.i.d.",
+                    "route": null
+                },
+                {
+                    "name": "Metoprolol",
+                    "dosage": "100 mg b.i.d.",
+                    "route": null
+                }
+            ],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "A 75-year-old male patient was admitted to the hospital due to shortness of breath, profound fatigue, and right-sided chest and abdominal pain. Tests revealed an exacerbation of congestive heart failure and pneumonia.",
+            "patient_instructions_target_lang": [
+                "Remain in the hospital for further diagnostics and treatment of shortness of breath, heart failure, and pneumonia."
+            ]
+        }
+    },
+    {
+        "id": 4998,
+        "extraction": {
+            "patient_demographics": {
+                "age": 34,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Acute allergic reaction (suspicious for Keflex), Renal failure requiring dialysis, Hypertension",
+            "medical_history": [
+                "Renal failure requiring dialysis",
+                "Hypertension",
+                "Urticaria",
+                "Heparin-induced thrombocytopenia",
+                "Environmental, grass, and inhalant allergies"
+            ],
+            "physical_findings": [
+                "Blood pressure 128/78, Pulse 70",
+                "Lungs clear to auscultation bilaterally, no wheeze",
+                "Heart regular rate and rhythm, no murmur",
+                "No oropharyngeal masses or lesions, no postnasal drip",
+                "Neck supple, no adenopathy"
+            ],
+            "clinical_plan": "RAST allergy testing for food and environmental allergies performed. Discontinue cephalosporin antibiotics. Prescribed EpiPen for emergency use.",
+            "past_medications": [
+                {
+                    "name": "Keflex",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Corticosteroids",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Antihistamine",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Heparin",
+                    "dosage": null,
+                    "route": null
+                }
+            ],
+            "current_medications": [
+                {
+                    "name": "Atenolol",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Lovaza",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Dialyvite",
+                    "dosage": null,
+                    "route": null
+                }
+            ],
+            "prescribed_medications": [
+                {
+                    "name": "EpiPen",
+                    "dosage": null,
+                    "route": "Injection"
+                }
+            ],
+            "patient_summary_target_lang": "An allergy consultation was held following a recent episode of acute swelling, likely triggered by the antibiotic Keflex. RAST allergy testing was performed. Due to the risk of anaphylaxis and the concurrent use of blood pressure medication (Atenolol), an EpiPen auto-injector was prescribed.",
+            "patient_instructions_target_lang": [
+                "Strictly avoid the use of cephalosporin antibiotics (e.g., Keflex).",
+                "Always carry your EpiPen auto-injector with you.",
+                "In the event of sudden swelling, shortness of breath, or a feeling of an impending allergic reaction, use the EpiPen and go immediately to the Emergency Department (ER)."
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Obesity (Consultation for laparoscopic gastric bypass)",
+            "medical_history": [
+                "Gastroesophageal reflux disease (GERD)",
+                "Muscle and joint pains (knee, back, foot, ankle)",
+                "Swelling",
+                "Snoring",
+                "Reconstructive surgery on right hand (13 years ago)",
+                "Penicillin allergy"
+            ],
+            "physical_findings": [
+                "Weight: 312 pounds",
+                "Alert and oriented x 3",
+                "Cranial nerves II-XII intact",
+                "Afebrile",
+                "Vital signs stable"
+            ],
+            "clinical_plan": "Evaluation for laparoscopic gastric bypass program. Discussed target weight loss goals (losing 60% of excess body weight to reach approximately 228 lbs).",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "A bariatric consultation was held to qualify the patient for a laparoscopic gastric bypass. Previous complaints (including joint pain, snoring, and reflux) were discussed, and weight reduction goals were established. The patient currently weighs 312 pounds (approx. 141 kg).",
+            "patient_instructions_target_lang": [
+                "Continue attending support group meetings.",
+                "Try to completely quit smoking before the planned surgical procedure.",
+                "Follow the bariatric program guidelines to prepare your body for surgery."
+            ]
+        }
+    },
+    {
+        "id": 501,
+        "extraction": {
+            "patient_demographics": {
+                "age": 10,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Right undescended testicle",
+            "medical_history": [
+                "Right sliding testicle (past)",
+                "Inguinal hernia"
+            ],
+            "physical_findings": [
+                "Testis identified at the external inguinal ring preoperatively",
+                "Testicle viable, but smaller than the contralateral side by approximately 50%",
+                "No palpable testicular masses",
+                "Small hernia identified intraoperatively"
+            ],
+            "clinical_plan": "Right orchiopexy and right herniorrhaphy performed. Patient to follow up in about 1 month.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Marcaine 0.25%",
+                    "dosage": "15 mL",
+                    "route": "Local"
+                }
+            ],
+            "patient_summary_target_lang": "A 10-year-old boy underwent surgery to bring down and fixate the right undescended testicle into the scrotum (orchiopexy) and simultaneously repair a small inguinal hernia. The testicle was found to be viable, although slightly smaller than the other one. The procedure went without complications.",
+            "patient_instructions_target_lang": [
+                "Come in for a follow-up appointment in about 1 month.",
+                "Do not lift any heavy objects for at least 3 months.",
+                "You may take a shower 48 hours after the procedure.",
+                "Avoid taking tub baths for the next 2 months."
+            ]
+        }
+    },
+    {
+        "id": 1001,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": null
+            },
+            "primary_diagnosis_technical": "Perianal abscess, normal colonoscopy to the terminal ileum",
+            "medical_history": [
+                "Rectal bleeding"
+            ],
+            "physical_findings": [
+                "Normal mucosa throughout the colon and terminal ileum (no colitis)",
+                "Jagged 8-mm opening at the anorectal junction posteriorly (12 o'clock position)",
+                "Purulent material expressed through the opening",
+                "No evidence of fistulous connection to the bowel lumen",
+                "Small dimpled scar 1 cm from the anal verge in the 11 o'clock position",
+                "Dimpled scar about 5 cm from the anal verge on the left buttock's cheek"
+            ],
+            "clinical_plan": "Continue current antibiotics and follow up with Dr. X. Consider surgical drainage if purulent drainage persists.",
+            "past_medications": [],
+            "current_medications": [
+                {
+                    "name": "Antibiotics",
+                    "dosage": null,
+                    "route": null
+                }
+            ],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "A colonoscopy was performed due to rectal bleeding and a suspected abscess. The large intestine and terminal ileum are normal, with no inflammation. An 8-mm opening with purulent discharge was identified at the anorectal junction, indicating a draining perianal abscess. No evidence of a fistula was found.",
+            "patient_instructions_target_lang": [
+                "Continue taking your current antibiotics as directed.",
+                "Follow up with Dr. X.",
+                "If the purulent drainage persists, surgical drainage may be necessary."
+            ]
+        }
+    },
+    {
+        "id": 1501,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": null
+            },
+            "primary_diagnosis_technical": "Left lower extremity swelling (No evidence of deep venous thrombosis)",
+            "medical_history": [],
+            "physical_findings": [
+                "Normal compressibility, augmentation, and color/Doppler flow in the common femoral, superficial femoral, and popliteal veins",
+                "Flow demonstrated in the proximal posterior tibial vein",
+                "No evidence of deep venous thrombosis (DVT) in the left lower extremity"
+            ],
+            "clinical_plan": "Ultrasound results are negative for DVT. Patient to follow up with the referring provider regarding the etiology of the left leg swelling.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "An ultrasound (Doppler) of the left leg was performed due to swelling to rule out thrombosis. The exam showed normal blood flow in all evaluated vessels. Deep vein thrombosis (DVT) was ruled out.",
+            "patient_instructions_target_lang": [
+                "Consult the test results with your referring doctor to determine another cause for the leg swelling."
+            ]
+        }
+    },
+    {
+        "id": 2001,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": null
+            },
+            "primary_diagnosis_technical": "Unspecified neck/back pain (Indication for cervical epidural steroid injection)",
+            "medical_history": [],
+            "physical_findings": [
+                "No cerebrospinal fluid or blood noted upon aspiration (loss of resistance technique)"
+            ],
+            "clinical_plan": "Patient discharged to recovery room in stable condition post-procedure.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Local sedation",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Lidocaine 1.5%",
+                    "dosage": null,
+                    "route": "Subcutaneous (skin wheal)"
+                },
+                {
+                    "name": "Depo-Medrol",
+                    "dosage": "160 mg",
+                    "route": "Epidural"
+                },
+                {
+                    "name": "Normal saline (preservative-free)",
+                    "dosage": "5 cc",
+                    "route": "Epidural"
+                },
+                {
+                    "name": "Neosporin",
+                    "dosage": null,
+                    "route": "Topical"
+                }
+            ],
+            "patient_summary_target_lang": "An epidural steroid injection (Depo-Medrol) was performed in the cervical spine. The procedure was done under local anesthesia, without the use of X-ray guidance (fluoroscopy). The procedure was successful and without complications.",
+            "patient_instructions_target_lang": [
+                "Rest and remain under observation by the staff in the recovery room.",
+                "Keep the injection site (on the back of the neck/upper back) clean; a bandage with antibiotic ointment was applied."
+            ]
+        }
+    },
+    {
+        "id": 2501,
+        "extraction": {
+            "patient_demographics": {
+                "age": 59,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "Well-woman checkup, status post hysterectomy, recent urinary tract infection",
+            "medical_history": [
+                "Hysterectomy",
+                "Urinary tract infection (recent)",
+                "Rosacea",
+                "Tremors",
+                "Fall with head trauma and subsequent headaches",
+                "Sulfa allergy"
+            ],
+            "physical_findings": [
+                "Vaginal mucosa atrophic",
+                "Cervix and uterus absent",
+                "No adnexal masses",
+                "Breasts without masses, tenderness, nipple retraction, or discharge",
+                "Stool guaiac negative",
+                "Blood pressure 116/74, Pulse 60"
+            ],
+            "clinical_plan": "Evaluate UTI therapy adequacy with urinalysis and culture. Recommended screening mammogram, hemoccult x 3, DEXA scan, and fasting labs (chem-12, lipid profile, CBC). Continue current medications. Annual recheck.",
+            "past_medications": [
+                {
+                    "name": "Medication for urinary tract infection",
+                    "dosage": null,
+                    "route": null
+                }
+            ],
+            "current_medications": [
+                {
+                    "name": "Tetracycline",
+                    "dosage": "250 mg daily",
+                    "route": "Oral"
+                },
+                {
+                    "name": "Inderal LA",
+                    "dosage": "80 mg every other day",
+                    "route": "Oral"
+                }
+            ],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "The patient presented for a routine well-woman checkup. Medical history includes a hysterectomy and a recent urinary tract infection. The physical examination revealed no abnormalities. A set of preventive screenings was ordered, including a mammogram, DEXA bone density scan, blood tests, and a urinalysis.",
+            "patient_instructions_target_lang": [
+                "Complete the ordered preventive screenings: mammogram, DEXA bone density scan, stool test for occult blood (Hemoccult x 3), and fasting blood tests.",
+                "Provide a urine sample for a urinalysis and culture to ensure the urinary tract infection has been fully resolved.",
+                "Continue taking your current medications without changes.",
+                "Return for another routine checkup in one year unless any concerning symptoms arise."
+            ]
+        }
+    },
+    {
+        "id": 3001,
+        "extraction": {
+            "patient_demographics": {
+                "age": 60,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Right renal mass (suspected renal cell carcinoma)",
+            "medical_history": [
+                "Right renal mass (~2 cm)",
+                "Positive family history of renal cell carcinoma"
+            ],
+            "physical_findings": [
+                "Right renal mass located in the lower pole laterally",
+                "Intraoperative ultrasound showed the mass to be deeper than initially anticipated",
+                "Frozen section biopsies from the base of the resection negative for renal cell carcinoma",
+                "Tumor close to the margin, but with 1-2 mm normal parenchyma around it"
+            ],
+            "clinical_plan": "Patient transferred to the postanesthesia care unit for postoperative monitoring following a successful laparoscopic right partial nephrectomy.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Perioperative antibiotics",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Fenoldopam",
+                    "dosage": null,
+                    "route": "IV (renal protection protocol)"
+                },
+                {
+                    "name": "Mannitol",
+                    "dosage": null,
+                    "route": "IV (renal protection protocol)"
+                },
+                {
+                    "name": "Lasix",
+                    "dosage": null,
+                    "route": "IV"
+                },
+                {
+                    "name": "FloSeal",
+                    "dosage": null,
+                    "route": "Topical"
+                },
+                {
+                    "name": "Surgicel",
+                    "dosage": null,
+                    "route": "Topical"
+                },
+                {
+                    "name": "Marcaine 0.25%",
+                    "dosage": null,
+                    "route": "Local infiltration"
+                }
+            ],
+            "patient_summary_target_lang": "A laparoscopic partial right nephrectomy (tumor resection) was performed. Special medications were used during the surgery to protect the kidney from ischemia. The tumor was removed, and rapid histopathological examination (frozen section) confirmed tumor-free margins. The patient woke up without complications.",
+            "patient_instructions_target_lang": [
+                "Rest and remain under close observation by the staff in the postoperative recovery room.",
+                "Report any pain or issues with the drain placed in the lumbar area to the nurse."
+            ]
+        }
+    },
+    {
+        "id": 3501,
+        "extraction": {
+            "patient_demographics": {
+                "age": null,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "Acute cholecystitis",
+            "medical_history": [
+                "Previous abdominal surgery (inferred from old incision)"
+            ],
+            "physical_findings": [
+                "Gallbladder acutely inflamed and distended",
+                "Necrotic areas on the gallbladder",
+                "Large gallbladder size",
+                "Large gallstones requiring extraction from the gallbladder before removal"
+            ],
+            "clinical_plan": "Patient transferred to the recovery room in stable condition post laparoscopic cholecystectomy.",
+            "past_medications": [],
+            "current_medications": [],
+            "prescribed_medications": [
+                {
+                    "name": "Marcaine 0.25%",
+                    "dosage": null,
+                    "route": "Local infiltration"
+                }
+            ],
+            "patient_summary_target_lang": "The patient underwent a laparoscopic cholecystectomy (gallbladder removal) due to acute cholecystitis. During the surgery, an enlarged gallbladder, large gallstones, and areas of necrosis were noted. The procedure was successful, and the patient was transferred to the recovery room in stable condition.",
+            "patient_instructions_target_lang": [
+                "Rest and remain under the care of the medical staff in the recovery room."
+            ]
+        }
+    },
+    {
+        "id": 4001,
+        "extraction": {
+            "patient_demographics": {
+                "age": 24,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Poison ivy / Poison oak contact dermatitis",
+            "medical_history": [
+                "Recurrent poison ivy dermatitis"
+            ],
+            "physical_findings": [
+                "Temperature 99.2",
+                "Weight 207 pounds",
+                "Raised, maculopapular rash in a linear pattern over arms, legs, chest, and back"
+            ],
+            "clinical_plan": "Administer Solu-Medrol 125 mg IM once. Instructed to continue OTC Benadryl or the previously prescribed once-a-day allergy medication.",
+            "past_medications": [
+                {
+                    "name": "Depo-Medrol",
+                    "dosage": "80 mg",
+                    "route": "Injection"
+                }
+            ],
+            "current_medications": [
+                {
+                    "name": "Benadryl (OTC)",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Cortisone cream",
+                    "dosage": null,
+                    "route": "Topical"
+                },
+                {
+                    "name": "Unknown once-a-day allergy medicine (Rx)",
+                    "dosage": "1 daily",
+                    "route": "Oral"
+                }
+            ],
+            "prescribed_medications": [
+                {
+                    "name": "Solu-Medrol",
+                    "dosage": "125 mg",
+                    "route": "IM (Intramuscular)"
+                }
+            ],
+            "patient_summary_target_lang": "A 24-year-old male patient presented with an itchy, maculopapular rash in a linear pattern on his chest, back, and extremities, which occurred after contact with poison ivy while fishing. The patient reported similar reactions in the past. An intramuscular steroid injection was recommended to alleviate the acute inflammation.",
+            "patient_instructions_target_lang": [
+                "You received a one-time intramuscular steroid injection (Solu-Medrol), which will help quickly reduce inflammation and itching.",
+                "Continue applying cortisone cream to the affected areas of the skin.",
+                "You may continue taking over-the-counter Benadryl OR return to taking the prescription allergy medication (taken once a day) that was prescribed to you during your previous visit."
+            ]
+        }
+    },
+    {
+        "id": 4501,
+        "extraction": {
+            "patient_demographics": {
+                "age": 15,
+                "gender": "female"
+            },
+            "primary_diagnosis_technical": "Chronic adenotonsillitis with adenotonsillar hypertrophy, Upper respiratory tract infection with mild acute laryngitis",
+            "medical_history": [
+                "Recurrent tonsillitis (~4 times per year)",
+                "Obesity",
+                "Cholecystectomy"
+            ],
+            "physical_findings": [
+                "Weight 184 pounds, Pulse 80, Temp 98.4",
+                "Clear nasal drainage, large inferior turbinates",
+                "Oropharynx reveals very large, exophytic tonsils (3+/4+)",
+                "Mirror examination of the larynx reveals mild edema",
+                "Patient is a mouth breather at nighttime",
+                "History of loud snoring, throat pain, fever, and intermittent hoarseness with infections"
+            ],
+            "clinical_plan": "Scheduled for adenotonsillectomy at Memorial Medical Center in the coming weeks. Risks, benefits, and alternatives of surgery were discussed with the patient and family.",
+            "past_medications": [
+                {
+                    "name": "Antibiotics",
+                    "dosage": null,
+                    "route": null
+                }
+            ],
+            "current_medications": [],
+            "prescribed_medications": [],
+            "patient_summary_target_lang": "A 15-year-old female patient presented for an ENT consultation due to recurrent tonsil infections and snoring. The examination revealed significantly enlarged palatine tonsils and mild laryngeal edema associated with a current upper respiratory tract infection. After discussing treatment options, the patient was scheduled for surgical removal of the tonsils and adenoids (adenotonsillectomy).",
+            "patient_instructions_target_lang": [
+                "Carefully review the provided information regarding the planned tonsil removal surgery (including the risks of bleeding or infection).",
+                "Wait for the final surgery date to be scheduled at Memorial Medical Center in the coming weeks."
+            ]
+        }
+    },
+    {
+        "id": 4997,
+        "extraction": {
+            "patient_demographics": {
+                "age": 5,
+                "gender": "male"
+            },
+            "primary_diagnosis_technical": "Respiratory distress and asthma exacerbation",
+            "medical_history": [
+                "Asthma",
+                "Frequent pneumonia"
+            ],
+            "physical_findings": [
+                "Peak flows decreased from 100 to 75 over the course of the day",
+                "Oxygen saturation low at 91% on room air, 99% with treatment, dropping to 92% with coughing spells",
+                "Tight wheezing and retractions heard bilaterally",
+                "Vomiting and abdominal pain",
+                "Chest x-ray reveals bronchial thickening, no definite infiltrate"
+            ],
+            "clinical_plan": "Patient admitted to the hospital under the hospitalist service for continued management of respiratory distress and asthma.",
+            "past_medications": [],
+            "current_medications": [
+                {
+                    "name": "Advair",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Nasonex",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Xopenex",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Zicam",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Zithromax",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Prednisone",
+                    "dosage": null,
+                    "route": null
+                },
+                {
+                    "name": "Albuterol",
+                    "dosage": null,
+                    "route": null
+                }
+            ],
+            "prescribed_medications": [
+                {
+                    "name": "Continuous high-dose albuterol",
+                    "dosage": "High-dose",
+                    "route": "Inhalation"
+                },
+                {
+                    "name": "Decadron",
+                    "dosage": null,
+                    "route": "Oral (PO)"
+                },
+                {
+                    "name": "Oxygen",
+                    "dosage": null,
+                    "route": "Facemask"
+                }
+            ],
+            "patient_summary_target_lang": "A 5-year-old boy was brought to the Emergency Department (ER) due to an asthma exacerbation, severe cough, and wheezing. The examination revealed low blood oxygen (91% saturation) and significant breathing difficulties. After administering inhaled medications, steroids, and oxygen in the ER, the decision was made to admit the child to the hospital for further treatment.",
+            "patient_instructions_target_lang": [
+                "The child is being admitted to the hospital ward to monitor his breathing and continue asthma treatment.",
+                "During the hospital stay, the staff will continue administering oxygen, strong bronchodilators, and steroids."
             ]
         }
     }

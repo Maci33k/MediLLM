@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 from utils.translations import TEXTS
 
 st.set_page_config(
-    page_title="MediScribe AI",
-    page_icon="🏥",
+    page_title="MedDoc AI",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -16,50 +15,53 @@ api_key = os.getenv("GOOGLE_API_KEY")
 
 if 'current_note' not in st.session_state:
     st.session_state['current_note'] = ""
-if 'ostatni_wynik' not in st.session_state:
-    st.session_state['ostatni_wynik'] = None
+# ZMIANA: Zmieniono 'ostatni_wynik' na 'last_result' dla spójności całego projektu
+if 'last_result' not in st.session_state:
+    st.session_state['last_result'] = None
 if 'lang_code' not in st.session_state:
     st.session_state['lang_code'] = "PL"
 if 'selected_model' not in st.session_state:
-    st.session_state['selected_model'] = "Gemini 3 Flash Preview"
+    st.session_state['selected_model'] = "Gemini 3.1 Flash Lite"
 
 with st.sidebar:
-    st.image("https://img.icons8.com/fluency/96/artificial-intelligence.png", width=80)
-    st.title("MediScribe AI")
+    st.title("MedDoc AI")
     
-    jezyk_wybor = st.radio(
+    lang_choice = st.radio(
         "Language / Język:",
         options=["PL", "EN"],
         index=0 if st.session_state['lang_code'] == "PL" else 1,
         horizontal=True
     )
-    st.session_state['lang_code'] = jezyk_wybor
+    st.session_state['lang_code'] = lang_choice
     
-    t = TEXTS[jezyk_wybor]
+    t = TEXTS[lang_choice]
     
     st.markdown("---")
     st.markdown(f"### {t['sidebar_title']}")
     
-    lista_modeli = [
-        "Gemini 3 Flash Preview",
-        "Gemini 2.5 Flash Lite",
-        "Gemini 2.5 Pro",
-        "Llama 3.1 8B (via Groq)",
-        "Llama 3.3 70B (via Groq)"
+    models_list = [
+        "Gemini 3.1 Flash Lite",
+        "GPT-5 Mini",
+        "Claude 4.5 Haiku",
+        "Llama 4 Scout",
+        "Gemini 3.1 Pro",
+        "GPT-5.4",
+        "Claude 4.6 Sonnet",
+        "Llama 4 Maverick"
     ]
     
-    if st.session_state['selected_model'] in lista_modeli:
-        obecny_indeks = lista_modeli.index(st.session_state['selected_model'])
+    if st.session_state['selected_model'] in models_list:
+        current_index = models_list.index(st.session_state['selected_model'])
     else:
-        obecny_indeks = 0
+        current_index = 0
 
-    wybrany_model = st.selectbox(
+    chosen_model = st.selectbox(
         t['select_model'],
-        options=lista_modeli,
-        index=obecny_indeks
+        options=models_list,
+        index=current_index
     )
     
-    st.session_state['selected_model'] = wybrany_model
+    st.session_state['selected_model'] = chosen_model
     
 
 st.title(t['main_title'])
